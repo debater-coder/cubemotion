@@ -9,7 +9,14 @@ import {
 
 export default function Menu() {
   return (
-    <Flex w="full" align="left" gap={1} px={1}>
+    <Flex
+      w="full"
+      align="left"
+      gap={1}
+      px={1}
+      bg="gray.900"
+      borderBottom="solid 1px gray"
+    >
       <ChakraMenu>
         <MenuButton p={1} _hover={{ bg: "gray.500" }} rounded="sm">
           File
